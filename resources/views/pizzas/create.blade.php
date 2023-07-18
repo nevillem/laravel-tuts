@@ -1,7 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-        <div class="content">
+        <div class="wrapper create-pizza">
          <div class="title m-b-m-d"> 
          ADD NEW PIZZA
          </div>
@@ -32,7 +31,6 @@
         <input type="submit" value="Order Pizza">
 
         </form>
-        </div>
         </div>
         @endsection
 
